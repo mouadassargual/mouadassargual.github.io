@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mouadas.me/sitemap.xml

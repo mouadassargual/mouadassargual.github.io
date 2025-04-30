@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mouad Assargual</title>
+    <link>https://mouadas.me/</link>
+    <description>Recent content on Mouad Assargual</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2025 09:00:00 +0100</lastBuildDate>
+    <atom:link href="https://mouadas.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://mouadas.me/about/</link>
+      <pubDate>Wed, 30 Apr 2025 09:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/about/</guid>
+      <description>My story, my mission, and how I can help you.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://mouadas.me/contact/</link>
+      <pubDate>Wed, 30 Apr 2025 09:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/contact/</guid>
+      <description>&lt;h2 id=&#34;-lets-connect&#34;&gt;📬 Let’s Connect&lt;/h2&gt;
+&lt;p&gt;Whether you&amp;rsquo;re looking for consulting, collaboration, or just want to say hello — I’d love to hear from you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📧 Email: &lt;a href=&#34;mailto:hi@mouadas.me&#34;&gt;hi@mouadas.me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💼 LinkedIn: &lt;a href=&#34;https://linkedin.com/in/mouadassargual&#34;&gt;linkedin.com/in/mouadassargual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🧠 Want to work with me? I offer digital strategy consulting — let’s build something great.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://mouadas.me/projects/</link>
+      <pubDate>Wed, 30 Apr 2025 09:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/projects/</guid>
+      <description>&lt;h2 id=&#34;-my-projects&#34;&gt;🧩 My Projects&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Real work. Real value. Here are the projects I’ve personally built or am actively developing.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-welite-consulting&#34;&gt;📌 Welite Consulting&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Founder &amp;amp; Strategist&lt;br&gt;
+&lt;strong&gt;Status:&lt;/strong&gt; Active&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; Digital Strategy, Branding, Consulting&lt;/p&gt;
+&lt;p&gt;Welite is my premium consulting business that helps entrepreneurs and public figures grow through AI-powered strategy, digital branding, and content automation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons from Being a 21-Year-Old Entrepreneur While Studying AI</title>
+      <link>https://mouadas.me/posts/my-experience-as-an-entrepreneur-in-my-21s/</link>
+      <pubDate>Tue, 29 Apr 2025 09:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/posts/my-experience-as-an-entrepreneur-in-my-21s/</guid>
+      <description>The reality of starting a business as a young entrepreneur while completing a Master&amp;#39;s in Artificial Intelligence.</description>
+    </item>
+    <item>
+      <title>How I Manage My Time as a Student Entrepreneur</title>
+      <link>https://mouadas.me/posts/how-i-manage-my-time-as-a-student-entrepreneur/</link>
+      <pubDate>Mon, 28 Apr 2025 14:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/posts/how-i-manage-my-time-as-a-student-entrepreneur/</guid>
+      <description>My strategies to balance a demanding academic life and running a digital business.</description>
+    </item>
+    <item>
+      <title>Why I’m Obsessed with Productivity Systems (and You Should Be Too)</title>
+      <link>https://mouadas.me/posts/why-im-in-love-with-productivity-systems/</link>
+      <pubDate>Mon, 28 Apr 2025 09:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/posts/why-im-in-love-with-productivity-systems/</guid>
+      <description>Learn how using productivity systems like Notion, Todoist, and Google Calendar helped me manage a business while studying AI.</description>
+    </item>
+    <item>
+      <title>Tools I Use to Run My Business</title>
+      <link>https://mouadas.me/posts/tools-i-use-to-run-my-business/</link>
+      <pubDate>Sun, 20 Apr 2025 12:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/posts/tools-i-use-to-run-my-business/</guid>
+      <description>A list of tools I use to run my consulting and digital strategy business efficiently.</description>
+    </item>
+    <item>
+      <title>Why I Created This Website: Building a Digital Home for My Personal Brand</title>
+      <link>https://mouadas.me/posts/why-i-created-this-website/</link>
+      <pubDate>Thu, 10 Apr 2025 09:00:00 +0100</pubDate>
+      <guid>https://mouadas.me/posts/why-i-created-this-website/</guid>
+      <description>Discover why I built this website with Hugo and PaperMod, and how owning your digital identity helps grow a strong personal brand.</description>
+    </item>
+  </channel>
+</rss>
