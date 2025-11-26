@@ -9,13 +9,13 @@ export default function SupabaseSessionHandler() {
       try {
         if (typeof window === 'undefined') return
 
-        // If URL fragment contains an access token (magic link), parse and store session
+        // If URL fragment contains an access token (magic link), Supabase handles it automatically
+        // We just need to get the session to trigger the auth state change
         if (window.location.hash && (window.location.hash.includes('access_token') || window.location.hash.includes('type=magiclink'))) {
-          // Supabase provides a helper to parse the url and store the session
           try {
-            const { data, error } = await supabase.auth.getSessionFromUrl({ storeSession: true })
+            const { data, error } = await supabase.auth.getSession()
             if (error) {
-              console.warn('getSessionFromUrl error', error)
+              console.warn('getSession error', error)
             } else if (data?.session?.user) {
               // remove token fragment from URL for cleanliness
               try { window.history.replaceState(null, '', window.location.pathname + window.location.search) } catch (e) {}
