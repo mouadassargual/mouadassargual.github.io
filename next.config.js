@@ -35,8 +35,6 @@ const nextConfig = {
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
-  // Production optimizations
-  swcMinify: true,
 }
 
 module.exports = nextConfig
