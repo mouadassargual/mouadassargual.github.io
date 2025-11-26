@@ -48,21 +48,21 @@ export default async function Home() {
                 </span>
               </div>
 
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-8">
+              <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6 sm:mb-8">
                 <span className="text-white">Transforming Organizations</span><br/>
                 <span className="bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">Through Technology</span><br/>
                 <span className="text-white">& Strategic Vision</span>
               </h1>
 
-              <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed max-w-2xl mb-12">
+              <p className="text-base sm:text-xl lg:text-2xl text-gray-400 leading-relaxed max-w-2xl mb-8 sm:mb-12">
                 Empowering leaders with innovation, strategy, and digital excellence.
               </p>
 
               {/* CTA Button */}
-              <div className="flex flex-col sm:flex-row gap-4 mb-16">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-10 sm:mb-16">
                 <Link
                   href="#contact"
-                  className="group relative px-10 py-5 bg-white text-black text-center font-semibold overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-white/20"
+                  className="group relative px-6 py-4 sm:px-10 sm:py-5 bg-white text-black text-center font-semibold overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-white/20"
                   aria-label="Contact Mouad Assargual"
                 >
                   <span className="relative z-10 flex items-center justify-center gap-3">
@@ -75,7 +75,7 @@ export default async function Home() {
                 </Link>
                 <Link
                   href="#about"
-                  className="group relative px-10 py-5 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm text-white text-center font-semibold border border-white/20 overflow-hidden transition-all duration-500 hover:border-white/50 hover:scale-105"
+                  className="group relative px-6 py-4 sm:px-10 sm:py-5 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm text-white text-center font-semibold border border-white/20 overflow-hidden transition-all duration-500 hover:border-white/50 hover:scale-105"
                   aria-label="Learn more about Mouad Assargual"
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -84,29 +84,29 @@ export default async function Home() {
               </div>
 
               {/* Stats - Glass cards with descriptions */}
-              <div className="flex gap-6 flex-wrap" role="list" aria-label="Professional statistics">
-                <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 px-8 py-6 transition-all duration-500 hover:border-white/50 hover:scale-105 max-w-[200px]" role="listitem">
+              <div className="grid grid-cols-3 gap-3 sm:flex sm:gap-6 sm:flex-wrap" role="list" aria-label="Professional statistics">
+                <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 px-3 py-4 sm:px-8 sm:py-6 transition-all duration-500 hover:border-white/50 hover:scale-105 sm:max-w-[200px]" role="listitem">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="relative z-10">
-                    <div className="text-4xl font-bold text-white mb-2" aria-label="5 plus years of expertise">5+</div>
-                    <div className="text-xs text-white/60 uppercase tracking-wider mb-1">Years of Expertise</div>
-                    <div className="text-xs text-gray-500 leading-relaxed">In digital transformation & institutional communication</div>
+                    <div className="text-2xl sm:text-4xl font-bold text-white mb-1 sm:mb-2" aria-label="5 plus years of expertise">5+</div>
+                    <div className="text-[10px] sm:text-xs text-white/60 uppercase tracking-wider mb-1">Years</div>
+                    <div className="hidden sm:block text-xs text-gray-500 leading-relaxed">In digital transformation & institutional communication</div>
                   </div>
                 </div>
-                <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 px-8 py-6 transition-all duration-500 hover:border-white/50 hover:scale-105 max-w-[200px]" role="listitem">
+                <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 px-3 py-4 sm:px-8 sm:py-6 transition-all duration-500 hover:border-white/50 hover:scale-105 sm:max-w-[200px]" role="listitem">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="relative z-10">
-                    <div className="text-4xl font-bold text-white mb-2" aria-label="20 plus successful projects">20+</div>
-                    <div className="text-xs text-white/60 uppercase tracking-wider mb-1">Successful Projects</div>
-                    <div className="text-xs text-gray-500 leading-relaxed">From political campaigns to Smart Cities initiatives</div>
+                    <div className="text-2xl sm:text-4xl font-bold text-white mb-1 sm:mb-2" aria-label="20 plus successful projects">20+</div>
+                    <div className="text-[10px] sm:text-xs text-white/60 uppercase tracking-wider mb-1">Projects</div>
+                    <div className="hidden sm:block text-xs text-gray-500 leading-relaxed">From political campaigns to Smart Cities initiatives</div>
                   </div>
                 </div>
-                <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 px-8 py-6 transition-all duration-500 hover:border-white/50 hover:scale-105 max-w-[200px]" role="listitem">
+                <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 px-3 py-4 sm:px-8 sm:py-6 transition-all duration-500 hover:border-white/50 hover:scale-105 sm:max-w-[200px]" role="listitem">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="relative z-10">
-                    <div className="text-4xl font-bold text-white mb-2" aria-label="15 plus institutions served">15+</div>
-                    <div className="text-xs text-white/60 uppercase tracking-wider mb-1">Institutions Served</div>
-                    <div className="text-xs text-gray-500 leading-relaxed">Across government, public sector & political organizations</div>
+                    <div className="text-2xl sm:text-4xl font-bold text-white mb-1 sm:mb-2" aria-label="15 plus institutions served">15+</div>
+                    <div className="text-[10px] sm:text-xs text-white/60 uppercase tracking-wider mb-1">Clients</div>
+                    <div className="hidden sm:block text-xs text-gray-500 leading-relaxed">Across government, public sector & political organizations</div>
                   </div>
                 </div>
               </div>
@@ -247,25 +247,25 @@ export default async function Home() {
 
         <div className="section-container relative z-10">
           {/* Header - Premium style */}
-          <div className="text-center mb-20">
-            <div className="inline-block mb-8">
-              <span className="px-6 py-2 border border-white/20 text-white/60 text-sm uppercase tracking-[0.3em] backdrop-blur-sm">
+          <div className="text-center mb-12 sm:mb-20">
+            <div className="inline-block mb-6 sm:mb-8">
+              <span className="px-4 py-2 sm:px-6 border border-white/20 text-white/60 text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-[0.3em] backdrop-blur-sm">
                 Services
               </span>
             </div>
-            <h2 id="services-heading" className="text-5xl md:text-7xl font-bold mb-8">
+            <h2 id="services-heading" className="text-3xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-8">
               <span className="text-white">What I</span>{' '}
               <span className="bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">Do</span>
             </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+            <p className="text-base sm:text-xl text-gray-400 max-w-2xl mx-auto px-4">
               End-to-end solutions for Morocco's digital transformation journey
             </p>
           </div>
 
           {/* Services Grid - Bento Style Premium */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 max-w-7xl mx-auto">
             {/* Service 1 - Featured */}
-            <article className="md:col-span-2 md:row-span-2 group relative bg-white text-black p-10 min-h-[400px] flex flex-col justify-between overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/10">
+            <article className="md:col-span-2 md:row-span-2 group relative bg-white text-black p-6 sm:p-10 min-h-[300px] sm:min-h-[400px] flex flex-col justify-between overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-white/10">
               <div className="absolute top-0 right-0 w-96 h-96 bg-gray-100 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-700"></div>
               <div className="absolute bottom-0 left-0 w-64 h-64 bg-gradient-to-r from-gray-100 to-transparent rounded-full translate-y-1/2 -translate-x-1/2 group-hover:scale-125 transition-transform duration-700"></div>
               <div className="relative z-10">
@@ -273,7 +273,7 @@ export default async function Home() {
                   <span className="text-sm font-medium text-gray-400 uppercase tracking-wider">01</span>
                   <div className="w-14 h-14 rounded-full bg-black text-white flex items-center justify-center text-2xl group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-xl">🚀</div>
                 </div>
-                <h3 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">Digital<br/>Transformation</h3>
+                <h3 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 leading-tight">Digital<br/>Transformation</h3>
               </div>
               <div className="relative z-10">
                 <p className="text-gray-600 text-lg leading-relaxed mb-6 max-w-md">
@@ -288,7 +288,7 @@ export default async function Home() {
             </article>
 
             {/* Service 2 */}
-            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-8 min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105 hover:shadow-xl hover:shadow-white/5">
+            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-6 sm:p-8 min-h-[180px] sm:min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105 hover:shadow-xl hover:shadow-white/5">
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 flex items-center justify-between">
                 <span className="text-sm font-medium text-white/40 uppercase tracking-wider">02</span>
@@ -301,7 +301,7 @@ export default async function Home() {
             </article>
 
             {/* Service 3 */}
-            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-8 min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105 hover:shadow-xl hover:shadow-white/5">
+            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-6 sm:p-8 min-h-[180px] sm:min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105 hover:shadow-xl hover:shadow-white/5">
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-white/50 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               <div className="relative z-10 flex items-center justify-between">
@@ -315,7 +315,7 @@ export default async function Home() {
             </article>
 
             {/* Service 4 */}
-            <article className="group relative bg-white text-black p-8 min-h-[200px] flex flex-col justify-between overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-white/10">
+            <article className="group relative bg-white text-black p-6 sm:p-8 min-h-[180px] sm:min-h-[200px] flex flex-col justify-between overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-white/10">
               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-gray-100 rounded-full group-hover:scale-[2] transition-transform duration-700"></div>
               <div className="absolute -top-10 -left-10 w-24 h-24 bg-gray-50 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
               <div className="relative z-10 flex items-center justify-between">
@@ -329,7 +329,7 @@ export default async function Home() {
             </article>
 
             {/* Service 5 */}
-            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-8 min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105">
+            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-6 sm:p-8 min-h-[180px] sm:min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105">
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-white to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
               <div className="relative z-10 flex items-center justify-between">
@@ -343,7 +343,7 @@ export default async function Home() {
             </article>
 
             {/* Service 6 */}
-            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-8 min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105">
+            <article className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-6 sm:p-8 min-h-[180px] sm:min-h-[200px] flex flex-col justify-between overflow-hidden border border-white/10 transition-all duration-500 hover:border-white/50 hover:scale-105">
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 flex items-center justify-between">
                 <span className="text-sm font-medium text-white/40 uppercase tracking-wider">06</span>
@@ -548,7 +548,7 @@ export default async function Home() {
       </section>
 
       {/* Experience Timeline Section */}
-      <section id="experience" className="relative py-32 overflow-hidden bg-black">
+      <section id="experience" className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-black">
         {/* Animated background gradient */}
         <div className="absolute inset-0">
           <div className="absolute top-1/2 left-0 w-[700px] h-[700px] bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -563,7 +563,7 @@ export default async function Home() {
                 Experience
               </span>
             </div>
-            <h2 className="text-5xl md:text-7xl font-bold mb-8">
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-8">
               <span className="text-white">My</span>{' '}
               <span className="bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">Journey</span>
             </h2>
@@ -731,7 +731,7 @@ export default async function Home() {
       </section>
 
       {/* Process Section */}
-      <section id="process" className="section-light py-32">
+      <section id="process" className="section-light py-16 sm:py-24 lg:py-32">
         <div className="section-container">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center">How I Work</h2>
           <p className="text-lg text-text-secondary text-center mb-20 max-w-3xl mx-auto">
@@ -808,7 +808,7 @@ export default async function Home() {
       </section>
 
       {/* Clients Section */}
-      <section id="clients" className="section-dark py-32 overflow-hidden">
+      <section id="clients" className="section-dark py-16 sm:py-24 lg:py-32 overflow-hidden">
         <div className="section-container">
           {/* Header */}
           <div className="text-center mb-20">
@@ -848,7 +848,7 @@ export default async function Home() {
       </section>
 
       {/* Blog Section */}
-      <section id="blog" className="section-light py-32">
+      <section id="blog" className="section-light py-16 sm:py-24 lg:py-32">
         <div className="section-container">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-20">
             <div>
@@ -908,7 +908,7 @@ export default async function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="relative py-32 overflow-hidden bg-black">
+      <section id="contact" className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-black">
         {/* Animated background gradient */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -924,7 +924,7 @@ export default async function Home() {
                 Get in Touch
               </span>
             </div>
-            <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 leading-none">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-8 leading-none">
               <span className="text-white">Let's Create</span><br/>
               <span className="bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">Something Great</span>
             </h2>
