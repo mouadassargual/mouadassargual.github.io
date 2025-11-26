@@ -5,12 +5,7 @@ export default function StructuredData() {
     "@id": "https://mouadas.me/#person",
     "name": "Mouad Assargual",
     "url": "https://mouadas.me",
-    "image": {
-      "@type": "ImageObject",
-      "url": "https://mouadas.me/profile.jpg",
-      "width": 400,
-      "height": 400
-    },
+    "image": "https://mouadas.me/profile.jpg",
     "sameAs": [
       "https://www.linkedin.com/in/mouadassargual/",
       "https://x.com/mouadassargual",
@@ -38,13 +33,6 @@ export default function StructuredData() {
       "Smart Cities",
       "Political Communication",
       "Data Analytics"
-    ],
-    "alumniOf": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "Faculty of Applied Sciences - Ait Melloul",
-        "description": "Master's in Embedded Artificial Intelligence"
-      }
     ]
   }
 
@@ -57,81 +45,7 @@ export default function StructuredData() {
     "description": "Expert in Digital Transformation, GovTech, Strategic Communication, and AI Solutions for Morocco's public sector.",
     "publisher": {
       "@id": "https://mouadas.me/#person"
-    },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://mouadas.me/blog?search={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
     }
-  }
-
-  const siteNavigationSchema = {
-    "@context": "https://schema.org",
-    "@type": "SiteNavigationElement",
-    "@id": "https://mouadas.me/#navigation",
-    "name": "Main Navigation",
-    "hasPart": [
-      {
-        "@type": "SiteNavigationElement",
-        "name": "Home",
-        "url": "https://mouadas.me/"
-      },
-      {
-        "@type": "SiteNavigationElement",
-        "name": "About",
-        "url": "https://mouadas.me/#about"
-      },
-      {
-        "@type": "SiteNavigationElement",
-        "name": "Expertise",
-        "url": "https://mouadas.me/#expertise"
-      },
-      {
-        "@type": "SiteNavigationElement",
-        "name": "Experience",
-        "url": "https://mouadas.me/#experience"
-      },
-      {
-        "@type": "SiteNavigationElement",
-        "name": "Blog",
-        "url": "https://mouadas.me/blog"
-      },
-      {
-        "@type": "SiteNavigationElement",
-        "name": "Contact",
-        "url": "https://mouadas.me/#contact"
-      }
-    ]
-  }
-
-  const professionalServiceSchema = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "@id": "https://mouadas.me/#service",
-    "name": "Mouad Assargual - Digital Transformation Consulting",
-    "url": "https://mouadas.me",
-    "logo": "https://mouadas.me/profile.jpg",
-    "image": "https://mouadas.me/profile.jpg",
-    "description": "Expert consulting services in Digital Transformation, GovTech solutions, Strategic Communication, and AI integration for Morocco's public and private sectors.",
-    "founder": {
-      "@id": "https://mouadas.me/#person"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "Morocco"
-    },
-    "serviceType": [
-      "Digital Transformation Consulting",
-      "GovTech Solutions",
-      "Strategic Communication",
-      "Political Communication",
-      "AI Solutions & Automation",
-      "Smart Cities Consulting"
-    ],
-    "priceRange": "$$"
   }
 
   const breadcrumbSchema = {
@@ -156,8 +70,6 @@ export default function StructuredData() {
   const allSchemas = [
     personSchema,
     websiteSchema,
-    siteNavigationSchema,
-    professionalServiceSchema,
     breadcrumbSchema
   ]
 
