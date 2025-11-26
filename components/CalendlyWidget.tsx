@@ -12,16 +12,16 @@ export default function CalendlyWidget() {
   useEffect(() => {
     // Load Cal.com script dynamically
     const initCal = () => {
-      const C = window
+      const C = window as any
       const A = "https://app.cal.com/embed/embed.js"
       const L = "init"
       
       const p = function (a: any, ar: any) { a.q.push(ar) }
       const d = C.document
       
-      C.Cal = C.Cal || function () {
+      C.Cal = C.Cal || function (...args: any[]) {
         const cal = C.Cal
-        const ar = arguments
+        const ar = args
         if (!cal.loaded) {
           cal.ns = {}
           cal.q = cal.q || []
@@ -30,7 +30,7 @@ export default function CalendlyWidget() {
           cal.loaded = true
         }
         if (ar[0] === L) {
-          const api = function () { p(api, arguments) }
+          const api: any = function (...innerArgs: any[]) { p(api, innerArgs) }
           const namespace = ar[1]
           api.q = api.q || []
           if (typeof namespace === "string") {
