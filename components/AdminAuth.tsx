@@ -15,23 +15,12 @@ export default function AdminAuth() {
   useEffect(() => {
     const init = async () => {
       // If the magic-link redirected with the access token in the URL hash,
-      // tell Supabase to parse and store the session from the URL.
+      // Supabase will automatically handle it via onAuthStateChange
       try {
-        if (typeof window !== 'undefined' && window.location.hash.includes('access_token')) {
-          const { data, error } = await supabase.auth.getSessionFromUrl({ storeSession: true })
-          if (!error && data?.session?.user) {
-            setUser(data.session.user)
-            checkAdmin(data.session.user.id)
-            // remove the token fragment from the URL for cleanliness
-            try { window.history.replaceState(null, '', window.location.pathname + window.location.search) } catch (e) {}
-            return
-          }
-        }
-
-        const { data } = await supabase.auth.getUser()
-        if (data?.user) {
-          setUser(data.user)
-          checkAdmin(data.user.id)
+        const { data } = await supabase.auth.getSession()
+        if (data?.session?.user) {
+          setUser(data.session.user)
+          checkAdmin(data.session.user.id)
         }
       } catch (err) {
         console.error('Auth init error', err)
